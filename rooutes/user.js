@@ -13,4 +13,4 @@ router.get('/signin',function (req, res) {
 router.get('/signout',function (req, res) {
     res.send('用户退出');
 });
-moudle.exports=router;
+module.exports=router;

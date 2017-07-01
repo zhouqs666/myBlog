@@ -11,3 +11,4 @@ router.get('/add',function (req, res) {
 router.get('/delete',function (req, res) {
     res.send('删除文章')
 })
+module.exports=router;

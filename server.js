@@ -7,7 +7,7 @@ let category = require('./rooutes/category')
 let article = require('./rooutes/article')
 let app = express();
 
-app.use('/user')
-app.use('/category')
-app.use('/article')
+app.use('/user',user)
+app.use('/category',category)
+app.use('/article',article)
 app.listen(8080);
